@@ -43,6 +43,8 @@ function DatGuiKeyboardHelper()
 	this.gui = new dat.GUI();
 	this.buttons = [];
 	this.sliders = [];
+
+	this.hookItUp();
 }
 
 DatGuiKeyboardHelper.prototype.hookItUp = function() {
@@ -64,7 +66,7 @@ DatGuiKeyboardHelper.prototype.hookItUp = function() {
 		{
 			var slider = this.sliders[i];
 
-			if (keyboard.consumePressed(slider.increaseKeyValue))
+			if (keyboard.isPressed(slider.increaseKeyValue))
 			{
 				if (slider.object[slider.valueKey] + slider.increment <= slider.max)
 				{
@@ -75,7 +77,7 @@ DatGuiKeyboardHelper.prototype.hookItUp = function() {
 				}
 			}
 
-			if (keyboard.consumePressed(slider.decreaseKeyValue))
+			if (keyboard.isPressed(slider.decreaseKeyValue))
 			{
 				if (slider.object[slider.valueKey] - slider.increment >= slider.min)
 				{
