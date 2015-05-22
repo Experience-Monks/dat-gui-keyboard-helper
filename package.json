@@ -1,0 +1,34 @@
+{
+  "name": "dat-gui-keyboard-helper",
+  "version": "1.0.0",
+  "description": "Hooks up keyboard events to dat-gui widgets (e.g. sliders) and auto-syncs any changes to the widgets' value either by keyboard, by mouse or from an external source.",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "David Tran",
+    "email": "davidt@jam3.com",
+    "url": "https://github.com/eternallite"
+  },
+  "dependencies": {
+    "dat-gui": "^0.5.0",
+    "game-keyboard": "^0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "beefy test.js --live --open"
+  },
+  "keywords": [
+    "keyboard",
+    "helper",
+    "dat",
+    "gui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/eternallite/dat-gui-keyboard-helper.git"
+  },
+  "homepage": "https://github.com/eternallite/dat-gui-keyboard-helper",
+  "bugs": {
+    "url": "https://github.com/eternallite/dat-gui-keyboard-helper/issues"
+  }
+}
