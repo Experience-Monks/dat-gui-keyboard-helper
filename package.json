@@ -25,10 +25,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/eternallite/dat-gui-keyboard-helper.git"
+    "url": "git://github.com/Jam3/dat-gui-keyboard-helper.git"
   },
-  "homepage": "https://github.com/eternallite/dat-gui-keyboard-helper",
+  "homepage": "https://github.com/Jam3/dat-gui-keyboard-helper",
   "bugs": {
-    "url": "https://github.com/eternallite/dat-gui-keyboard-helper/issues"
+    "url": "https://github.com/Jam3/dat-gui-keyboard-helper/issues"
   }
 }

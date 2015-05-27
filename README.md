@@ -10,4 +10,4 @@ Hooks up keyboard events to dat-gui widgets (e.g. sliders) and auto-syncs any ch
 
 ## License
 
-MIT, see [LICENSE.md](http://github.com/eternallite/dat-gui-keyboard-helper/blob/master/LICENSE.md) for details.
+MIT, see [LICENSE.md](http://github.com/Jam3/dat-gui-keyboard-helper/blob/master/LICENSE.md) for details.
