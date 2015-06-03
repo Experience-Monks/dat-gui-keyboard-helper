@@ -110,8 +110,8 @@ DatGuiKeyboardHelper.prototype.addSlider = function(
 		increment: increment,
 		min: min,
 		max: max,
-		object,
-		valueKey,
+		object: object,
+		valueKey: valueKey,
 		onChangeCallback: onChangeCallback
 	});
 };
@@ -127,8 +127,8 @@ DatGuiKeyboardHelper.prototype.addButton = function(
 
 	this.buttons.push({
 		keyValue: keyValue,
-		object,
-		valueKey
+		object: object,
+		valueKey: valueKey
 	});
 };
 
